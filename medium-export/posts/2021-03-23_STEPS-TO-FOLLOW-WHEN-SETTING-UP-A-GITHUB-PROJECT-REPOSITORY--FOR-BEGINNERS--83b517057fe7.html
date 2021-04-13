@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>STEPS TO FOLLOW WHEN SETTING UP A GITHUB PROJECT(REPOSITORY) FOR BEGINNERS.</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">STEPS TO FOLLOW WHEN SETTING UP A GITHUB PROJECT(REPOSITORY) FOR BEGINNERS.</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+</section>
+<section data-field="body" class="e-content">
+<section name="dc5f" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="64c0" id="64c0" class="graf graf--p graf--leading"><strong class="markup--strong markup--p-strong">STEPS TO FOLLOW WHEN SETTING UP A GITHUB PROJECT(REPOSITORY) FOR BEGINNERS.</strong></p><p name="300a" id="300a" class="graf graf--p graf-after--p">GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p><p name="a724" id="a724" class="graf graf--p graf-after--p">To put your project up on GitHub, you will need to create a repository for it to live in . They are two ways of creating a repo . you can create a repo direct on git hub , secondly create a repo locally using git and then push it to git hub. It is rather best for beginners to create using git because it will them get used and learn more of the codes. So am going to take you through the steps of creating a repo using git.</p><p name="efe2" id="efe2" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Install git and create a GitHub account</strong></p><p name="e8ce" id="e8ce" class="graf graf--p graf-after--p">The first step you have to do is to install git and create an account on GitHub. Creating an account on GitHub is for free.</p><p name="e716" id="e716" class="graf graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Create a local git repository</strong></p><p name="0899" id="0899" class="graf graf--p graf-after--p">When creating a new project on your local computer using git, you will first create a new repository.</p><p name="14af" id="14af" class="graf graf--p graf-after--p">First, open up git bash and move to where you want to place your project using the cd command which means change directory.</p><ul class="postList"><li name="66fc" id="66fc" class="graf graf--li graf-after--p">cd Desktop/ command is to change directory to Desktop</li><li name="d064" id="d064" class="graf graf--li graf-after--li">mkdir(make directory) command is to create a repo name on desktop</li><li name="a010" id="a010" class="graf graf--li graf-after--li">cd ( name of the repo) to change directory from desktop to repo created</li></ul><p name="a039" id="a039" class="graf graf--p graf-after--li"><strong class="markup--strong markup--p-strong">Add a new file to the repo</strong></p><p name="0b91" id="0b91" class="graf graf--p graf-after--p">Add a file to the repo using a “ touch command”. For our case , we are adding a Readme.md file</p><ul class="postList"><li name="3aff" id="3aff" class="graf graf--li graf-after--p">touch Readme.md</li><li name="bea9" id="bea9" class="graf graf--li graf-after--li">use “ git init” command to initialize a git repo in the root of the folder</li><li name="a24d" id="a24d" class="graf graf--li graf-after--li">use “git add Readme.md ” to add it to the folder</li></ul><p name="a157" id="a157" class="graf graf--p graf-after--li"><strong class="markup--strong markup--p-strong">Then commit your work</strong></p><p name="4634" id="4634" class="graf graf--p graf-after--p">A commit is a record of what changes you have made or since the last time you made a commit.</p><ul class="postList"><li name="bbdb" id="bbdb" class="graf graf--li graf-after--p">git commit -m “add Readme.md”</li></ul><p name="032d" id="032d" class="graf graf--p graf-after--li"><strong class="markup--strong markup--p-strong">Create a new branch</strong></p><p name="26ad" id="26ad" class="graf graf--p graf-after--p">Branches allow you to move back and forth between ‘states’ of a project.</p><ul class="postList"><li name="a425" id="a425" class="graf graf--li graf-after--p">git branch -M main</li></ul><p name="9f45" id="9f45" class="graf graf--p graf-after--li"><strong class="markup--strong markup--p-strong">Push a branch to GitHub</strong></p><p name="ac88" id="ac88" class="graf graf--p graf-after--p">Now we will push the commit in your branch to GitHub repo. This will allow other people to see the changes you have made. To push changes to GitHub, we use</p><ul class="postList"><li name="cf87" id="cf87" class="graf graf--li graf-after--p">git remote add origin “<strong class="markup--strong markup--li-strong">add the link to your GitHub account</strong>”</li><li name="66cb" id="66cb" class="graf graf--li graf-after--li">Then use ‘<strong class="markup--strong markup--li-strong">git push -U origin main</strong>’ to push your work to GitHub</li></ul><p name="7b12" id="7b12" class="graf graf--p graf-after--li">To see changes on git that your have made, we use git status</p><p name="fa6f" id="fa6f" class="graf graf--p graf-after--p graf--trailing">I hope this blog has been helpful. Have a nice time coding.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ebetpharys" class="p-author h-card">Ebet Faris</a> on <a href="https://medium.com/p/83b517057fe7"><time class="dt-published" datetime="2021-03-23T10:47:25.310Z">March 23, 2021</time></a>.</p><p><a href="https://medium.com/@ebetpharys/steps-to-follow-when-setting-up-a-github-project-repository-for-beginners-83b517057fe7" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on April 8, 2021.</p></footer></article></body></html>
